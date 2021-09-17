@@ -1,7 +1,6 @@
-
 /*whole body tag*/
 body {
-    background-color: dodgerblue;
+    background-color: #095ca4;
 
 }
 
@@ -15,22 +14,107 @@ main {
 
 }
 
+/*flex container  inside <main>*/
+.main-flex-container {
+    margin: auto;
+    background-color: whitesmoke;
+    width: 50%;
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 15px 2vw;
+}
+
+/*flex container items*/
+.flex-items {
+    /*border: 1px solid darkgrey;*/
+    margin: 10px 40px;
+    box-shadow: 5px 10px 20px #adb1b7;
+    padding: 20px;
+}
+
+p > input {
+    font-size: 24px;
+    width: 100px;
+    height: 40px;
+    background-color: #225791;
+    border-radius: 7px;
+    margin-top: 20px;
+}
+
 /*whole footer tag*/
 footer {
 
 }
 
-.logincontainer{
+
+/*styles for login.html*/
+
+.logincontainer {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
+    text-align: center;
+    flex-flow: column;
 }
 
 .loginform {
+    border-radius: 10px;
     margin: auto;
-    height: 400px;
-    width: 400px;
+    max-height: 400px;
+    max-width: 400px;
+    width: 60vh;
+    height: 60vh;
     background-color: white;
-   /* align-items: center;
-    justify-self: center;*/
+    margin-top: 10%;
 }
+
+.loginheader {
+    /*border: 1px solid #063662;*/
+    height: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: column nowrap;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: auto;
+    font-size: large;
+}
+
+
+.fieldset {
+    margin: auto;
+    padding: 20px;
+}
+
+div.loginform input {
+    display: block;
+    margin: auto;
+    margin-bottom: 5px;
+    border: solid 1px #063662;
+    padding: 5px;
+    color: #063662;
+}
+
+div.loginform a {
+    font-size: small;
+    text-decoration: none;
+}
+
+input::placeholder {
+    color: #225791;
+    font-size: 1em;
+}
+
+#submit {
+    margin-top: 20px;
+    border-radius: 3px;
+    background-color: #063662;
+    width: 100px;
+    color: white;
+}
+
+
+/*styles for index.html*/
+

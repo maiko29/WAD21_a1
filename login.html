@@ -17,12 +17,22 @@
 <!--main area part-->
 <main>
     <div class="logincontainer">
-        <div class="loginform"><span>Welcome to postIT</span><br><a href="login.html">Create an Account</a><br> <span>Or...</span></br>
-            <span>Please log in</span>
-            <form method="post">
-                <input name="forname">
-                <input name="familyname">
-            </form>
+        <div class="loginform">
+
+            <div class="loginheader"><span>Welcome to postIT</span><br>
+                <a href="login.html">Create an Account</a><br>
+                <span>or</span></br>
+                <span>Please log in</span>
+            </div>
+
+            <div class="fieldset">
+                <form action="login.html" method="post">
+                    <input type="text" name="username" placeholder="username">
+                    <input type="password" name="pw" placeholder="password">
+                    <input type="button" name="login" id="submit" value="Log in">
+                    <a href="login.html">Forgot password</a>
+                </form>
+            </div>
         </div>
     </div>
 </main>
