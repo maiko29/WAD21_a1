@@ -5,17 +5,6 @@
 /*whole body tag*/
 body {
     background-color: #095ca4;
-
-}
-
-/*Whole header tag*/
-header {
-
-}
-
-/*whole main tag*/
-main {
-
 }
 
 /*flex container  inside <main>*/
@@ -41,6 +30,7 @@ p > input {
     width: 100px;
     height: 40px;
     background-color: #225791;
+    border: none;
     border-radius: 7px;
     margin-top: 20px;
 }
@@ -49,9 +39,6 @@ p > input {
 footer {
 
 }
-
-
-/*styles for login.html*/
 
 .logincontainer {
     display: flex;
@@ -86,7 +73,6 @@ footer {
     font-size: large;
 }
 
-
 .fieldset {
     margin: auto;
     padding: 20px;
@@ -119,6 +105,38 @@ input::placeholder {
     color: white;
 }
 
+.nav {
+    background-color: whitesmoke;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 24px;
+}
 
-/*styles for index.html*/
+.nav form{
+    display: flex;
+    flex-flow: row nowrap;
+    width: 45vw;
+}
 
+.nav input[type=text] {
+    padding: 6px;
+    font-size: small;
+    border: 1px solid #d0d0d0;
+    flex-grow: 10;
+}
+
+.nav .search-container button {
+    color: white;
+    background: #225791;
+    font-size: small;
+    border: none;
+    padding: 4px 24px;
+    border-radius: 0px 4px 4px 0px;
+    cursor: pointer;
+}
+
+.nav .search-container button:hover {
+    background: #063662;
+}
