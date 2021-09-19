@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/reset.css"/>
     <link rel="stylesheet" href="css/style.css"/>
-    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+          rel="stylesheet">
     <meta name="author" content="Maiko Mõtsar; Rasmus Lääne; Janeli Õun">
 </head>
 <body>
 
-<!--header / navigation part-->
 <header>
     <div class="nav">
         <a href="#"><img src="images/post-its.png" alt="Page logo of Post-it notes" width="40" height="40"/></a>
@@ -25,20 +25,48 @@
     </div>
 </header>
 
-<!--main area part-->
+
 <main>
-<!--  flex container  -->
     <div class="main-flex-container">
-<!--    flex container items    -->
-        <div class="flex-items"><p>Temporary item inside flex container #1<br><input type="button" value="&#128077;" title="Click me"></p></div>
-        <div class="flex-items"><p>Temporary item inside flex container #2<br><input type="button" value="&#128077;"></p></div>
+        <div class="flex-items">
+            <div class="flex-items-header">
+                <img src="images/user.png" alt="User information icon" width="32" height="32"/>
+                <p>Sep 18, 2020 15:16</p>
+            </div>
+            <div class="flex-items-image">
+                <img src="images/img1.jpeg" alt="User uploaded image" width="100%" height="auto"/>
+            </div>
+            <div class="flex-items-content">
+                <p>I think it's going to rain</p>
+                <button>&#128077;</button>
+            </div>
+        </div>
+        <div class="flex-items">
+            <div class="flex-items-header">
+                <img src="images/user.png" alt="User information icon" width="32" height="32"/>
+                <p>Sep 18, 2020 15:16</p>
+            </div>
+            <div class="flex-items-content">
+                <p>Which weighs more, a pound of feathers or a pound of bricks?</p>
+                <button>&#128077;</button>
+            </div>
+        </div>
+        <div class="flex-items">
+            <div class="flex-items-header">
+                <img src="images/user.png" alt="User information icon" width="32" height="32"/>
+                <p>Sep 18, 2020 15:16</p>
+            </div>
+            <div class="flex-items-image">
+                <img src="images/img2.jpeg" alt="User uploaded image" width="100%" height="auto"/>
+            </div>
+            <div class="flex-items-content">
+                <p>Felt cute, might delete later</p>
+                <button>&#128077;</button>
+            </div>
+        </div>
+
     </div>
 </main>
-
-<!--footer part-->
-<footer>
-
-</footer>
 
 </body>
 </html>

@@ -2,42 +2,60 @@
     font-family: 'PT Serif', serif;
 }
 
-/*whole body tag*/
 body {
     background-color: #095ca4;
 }
 
-/*flex container  inside <main>*/
+/* Flexbox used */
 .main-flex-container {
     margin: auto;
     background-color: whitesmoke;
-    width: 50%;
+    width: 45%;
     display: flex;
     flex-flow: column nowrap;
-    padding: 15px 2vw;
+    padding: 16px 4vw 80px;
 }
 
-/*flex container items*/
+/* class selectors */
 .flex-items {
-    /*border: 1px solid darkgrey;*/
-    margin: 10px 40px;
-    box-shadow: 5px 10px 20px #adb1b7;
-    padding: 20px;
+    margin: 8px 0px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 24px -4px #adb1b7;
 }
 
-p > input {
-    font-size: 24px;
-    width: 100px;
-    height: 40px;
+.flex-items-header {
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 16px;
+}
+
+.flex-items-content {
+    display:flex;
+    flex-flow: column wrap;
+    gap: 16px;
+    padding: 16px;
+}
+
+.flex-items-image {
+    width: 45vw;
+    height: auto;
+}
+
+/* Child selector */
+.flex-items-content > button {
+    font-size: 20px;
+    width: 56px;
+    height: 32px;
     background-color: #225791;
     border: none;
-    border-radius: 7px;
-    margin-top: 20px;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
-/*whole footer tag*/
-footer {
-
+.flex-items-content > button:hover {
+    background: #063662;
 }
 
 .logincontainer {
@@ -61,7 +79,6 @@ footer {
 }
 
 .loginheader {
-    /*border: 1px solid #063662;*/
     height: 130px;
     display: flex;
     justify-content: space-between;
@@ -92,11 +109,13 @@ div.loginform a {
     text-decoration: none;
 }
 
+/* Pseudo-element */
 input::placeholder {
     color: #225791;
     font-size: 1em;
 }
 
+/* ID selector */
 #submit {
     margin-top: 20px;
     border-radius: 3px;
@@ -114,20 +133,22 @@ input::placeholder {
     padding: 8px 24px;
 }
 
+/* Descendant selector */
 .nav form{
     display: flex;
     flex-flow: row nowrap;
     width: 45vw;
 }
 
-.nav input[type=text] {
+.nav input {
     padding: 6px;
     font-size: small;
     border: 1px solid #d0d0d0;
     flex-grow: 10;
 }
 
-.nav .search-container button {
+/* Adjacent Sibling Selector */
+input + button {
     color: white;
     background: #225791;
     font-size: small;
@@ -137,6 +158,13 @@ input::placeholder {
     cursor: pointer;
 }
 
-.nav .search-container button:hover {
+/* Pseudo-class */
+input + button:hover {
     background: #063662;
+}
+
+/* General Sibling Selector */
+img ~ p {
+    color: #adb1b7;
+    font-size: 12px;
 }
