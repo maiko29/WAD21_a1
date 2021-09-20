@@ -39,7 +39,7 @@ body {
 }
 
 .flex-items-image {
-    width: 45vw;
+    width: 100%;
     height: auto;
 }
 
@@ -68,6 +68,7 @@ body {
 }
 
 .loginform {
+    position: relative;
     border-radius: 10px;
     margin: auto;
     max-height: 400px;
@@ -76,6 +77,13 @@ body {
     height: 60vh;
     background-color: white;
     margin-top: 10%;
+}
+
+.loginform img{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+
 }
 
 .loginheader {
@@ -131,6 +139,7 @@ input::placeholder {
     justify-content: space-between;
     align-items: center;
     padding: 8px 24px;
+    
 }
 
 /* Descendant selector */
