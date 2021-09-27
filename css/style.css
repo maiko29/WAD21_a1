@@ -77,12 +77,14 @@ body {
     position: relative;
     border-radius: 10px;
     margin: auto;
-    max-height: 400px;
-    max-width: 400px;
-    width: 60vh;
-    height: 60vh;
+    min-height: 400px;
+    min-width: 360px;
+    width: 55vw;
+    height: 55vh;
+    max-height: 480px;
+    max-width: 440px;
     background-color: white;
-    margin-top: 10%;
+    margin-top: 15vh;
 }
 
 .loginform img {
