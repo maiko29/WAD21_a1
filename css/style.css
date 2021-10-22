@@ -204,6 +204,7 @@ img ~ p {
 .dropdown {
     position: relative;
     display: inline-block;
+
 }
 
 /* Yl7 */
@@ -211,7 +212,7 @@ img ~ p {
     display: none;
     position: absolute;
     right: 0;
-    margin-top: 190px;
+    margin-top: 20px;
     background-color: #f1f1f1;
     min-width: 300px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -245,6 +246,4 @@ img ~ p {
   }
 
   /* Yl7 */
-.show {
-    display:block;
-}
+.show {display:block;}
