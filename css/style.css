@@ -6,7 +6,9 @@ body {
     background-color: #095ca4;
 }
 
+
 /* Flexbox used */
+
 .main-flex-container {
     margin: auto;
     background-color: whitesmoke;
@@ -16,7 +18,9 @@ body {
     padding: 16px 4vw 80px;
 }
 
+
 /* class selectors */
+
 .flex-items {
     margin: 8px 0px;
     border-radius: 8px;
@@ -24,7 +28,7 @@ body {
 }
 
 .flex-items-header {
-    display:flex;
+    display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
     align-items: center;
@@ -32,7 +36,7 @@ body {
 }
 
 .flex-items-content {
-    display:flex;
+    display: flex;
     flex-flow: column wrap;
     gap: 16px;
     padding: 16px;
@@ -43,7 +47,9 @@ body {
     height: auto;
 }
 
+
 /* Child selector */
+
 .flex-items-content > button {
     font-size: 20px;
     width: 56px;
@@ -71,19 +77,20 @@ body {
     position: relative;
     border-radius: 10px;
     margin: auto;
-    max-height: 400px;
-    max-width: 400px;
-    width: 60vh;
-    height: 60vh;
+    min-height: 400px;
+    min-width: 360px;
+    width: 55vw;
+    height: 55vh;
+    max-height: 480px;
+    max-width: 440px;
     background-color: white;
-    margin-top: 10%;
+    margin-top: 15vh;
 }
 
-.loginform img{
+.loginform img {
     position: absolute;
     top: 5px;
     left: 5px;
-
 }
 
 .loginheader {
@@ -117,13 +124,17 @@ div.loginform a {
     text-decoration: none;
 }
 
+
 /* Pseudo-element */
+
 input::placeholder {
     color: #225791;
     font-size: 1em;
 }
 
+
 /* ID selector */
+
 #submit {
     margin-top: 20px;
     border-radius: 3px;
@@ -135,15 +146,20 @@ input::placeholder {
 .nav {
     background-color: whitesmoke;
     display: flex;
+    position: fixed;
+    left: 0;
+    right: 0;
     flex-flow: row nowrap;
     justify-content: space-between;
     align-items: center;
     padding: 8px 24px;
-    
+    z-index: 2;
 }
 
+
 /* Descendant selector */
-.nav form{
+
+.nav form {
     display: flex;
     flex-flow: row nowrap;
     width: 45vw;
@@ -156,7 +172,9 @@ input::placeholder {
     flex-grow: 10;
 }
 
+
 /* Adjacent Sibling Selector */
+
 input + button {
     color: white;
     background: #225791;
@@ -167,12 +185,16 @@ input + button {
     cursor: pointer;
 }
 
+
 /* Pseudo-class */
+
 input + button:hover {
     background: #063662;
 }
 
+
 /* General Sibling Selector */
+
 img ~ p {
     color: #adb1b7;
     font-size: 12px;
