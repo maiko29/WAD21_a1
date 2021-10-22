@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/reset.css"/>
     <link rel="stylesheet" href="css/style.css"/>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap"
           rel="stylesheet">
     <meta name="author" content="Maiko Mõtsar; Rasmus Lääne; Janeli Õun">
@@ -19,10 +21,14 @@
             <form action="index.html">
                 <input type="text" name="search">
                 <button type="submit">Search</button>
-            </form>
+            </form> 
+        </div class="dropdown">
+        <button><img src="images/user.png" onclick="myFunction()" class="dropbtn" width="32" height="32"></button>
+        <div id="myDropdown" class="dropdown-content">
+            <p>User Name</p>
+            <p>User E-mail</p>
+            <a href="login.html">LOG IN</a>
         </div>
-        <a href="login.html"><img src="images/user.png" alt="User information icon" width="32" height="32"/></a>
-    </div>
 </header>
 
 
