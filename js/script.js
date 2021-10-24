@@ -34,13 +34,13 @@ $(function() {
             let name = $('<p>').text(post.username);
             let content = $('<p>').text(post.content);
 
-            divUser.append('<img src="images/' + post.avatar + '" alt="User icon" width="32" height="32"/>');
+            divUser.append('<img src="' + post.avatar + '" alt="User icon" width="32" height="32"/>');
             divUser.append(name);
             divHeader.append(divUser);
             divHeader.append(dateTime);
 
             if (post.image != null) {
-                divImage.append('<img src="images/' + post.image + '" alt="User uploaded image" width="100%" height="auto"/>');
+                divImage.append('<img src="' + post.image + '" alt="User uploaded image" width="100%" height="auto"/>');
             }
 
             divContent.append(content);

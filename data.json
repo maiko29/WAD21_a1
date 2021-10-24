@@ -1,70 +1,70 @@
 [
   {
     "username": "John Doe",
-    "avatar": "user.png",
+    "avatar": "https://maiko29.github.io/WAD21_a1/images/user.png",
     "time": "Sep 18, 2020 15:16",
     "content": "I think it's going to rain",
-    "image": "img1.jpeg"
+    "image": "https://maiko29.github.io/WAD21_a1/images/img1.jpeg"
   },
   {
     "username": "Jon Snow",
-    "avatar": "user.png",
+    "avatar": "https://maiko29.github.io/WAD21_a1/images/snow.ong",
     "time": "Sep 18, 2020 15:10",
     "content": "Which weighs more, a pound of feathers or a pound of bricks?",
     "image": null
   },
   {
     "username": "Jane Doe",
-    "avatar": "user.png",
+    "avatar": "https://maiko29.github.io/WAD21_a1/images/user.png",
     "time": "Sep 18, 2020 12:12",
     "content": "Felt cute, might delete later",
-    "image": "img2.jpeg"
+    "image": "https://maiko29.github.io/WAD21_a1/images/img2.jpeg"
   },
   {
     "username": "John Wick",
-    "avatar": "user.png",
+    "avatar": "https://maiko29.github.io/WAD21_a1/images/wick.png",
     "time": "Sep 18, 2020 12:12",
     "content": "Felt cute, might delete later",
     "image": "img2.jpeg"
   },
   {
     "username": "Jane Eyre",
-    "avatar": "user.png",
+    "avatar": "https://maiko29.github.io/WAD21_a1/images/eyre.png",
     "time": "Sep 18, 2020 12:12",
     "content": "Felt cute, might delete later",
     "image": "img2.jpeg"
   },
   {
     "username": "Jane Goodall",
-    "avatar": "user.png",
+    "avatar": "https://maiko29.github.io/WAD21_a1/images/goodall.png",
     "time": "Sep 18, 2020 12:12",
     "content": "Felt cute, might delete later",
     "image": "img2.jpeg"
   },
   {
     "username": "John Lennon",
-    "avatar": "user.png",
+    "avatar": "https://maiko29.github.io/WAD21_a1/images/lennon.png",
     "time": "Sep 18, 2020 12:12",
     "content": "Felt cute, might delete later",
     "image": "img2.jpeg"
   },
   {
     "username": "Johnny Depp",
-    "avatar": "user.png",
+    "avatar": "https://maiko29.github.io/WAD21_a1/images/depp.png",
     "time": "Sep 18, 2020 12:12",
     "content": "Felt cute, might delete later",
     "image": "img2.jpeg"
   },
   {
     "username": "Task 2",
-    "avatar": "user.png",
+    "avatar": "https://maiko29.github.io/WAD21_a1/images/json.png",
     "time": "Sep 18, 2020 12:12",
     "content": "This JSON file was validated by https://jsonlint.com/",
     "image": null
   },
   {
     "username": "Task 3",
-    "avatar": "user.png",
+    "avatar": "https://maiko29.github.io/WAD21_a1/images/jquery.png",
     "time": "Sep 18, 2020 12:12",
     "content": "Storing this JSON file in ... *drumroll please* ... GITHUB! https://maiko29.github.io/WAD21_a1/data.json",
     "image": null
