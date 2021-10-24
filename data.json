@@ -1,0 +1,74 @@
+{
+  "postData": [
+    {
+    "username": "John Doe",
+    "avatar": "user.png",
+    "time": "Sep 18, 2020 15:16",
+    "content": "I think it's going to rain",
+    "image": "img1.jpeg"
+    },
+    {
+      "username": "John Snow",
+      "avatar": "user.png",
+      "time": "Sep 18, 2020 15:10",
+      "content": "Which weighs more, a pound of feathers or a pound of bricks?",
+      "image": null
+    },
+    {
+      "username": "John Wick",
+      "avatar": "user.png",
+      "time": "Sep 18, 2020 12:12",
+      "content": "Felt cute, might delete later",
+      "image": "img2.jpeg"
+    },
+    {
+      "username": "John Wick",
+      "avatar": "user.png",
+      "time": "Sep 18, 2020 12:12",
+      "content": "Felt cute, might delete later",
+      "image": "img2.jpeg"
+    },
+    {
+      "username": "John Wick",
+      "avatar": "user.png",
+      "time": "Sep 18, 2020 12:12",
+      "content": "Felt cute, might delete later",
+      "image": "img2.jpeg"
+    },
+    {
+      "username": "John Wick",
+      "avatar": "user.png",
+      "time": "Sep 18, 2020 12:12",
+      "content": "Felt cute, might delete later",
+      "image": "img2.jpeg"
+    },
+    {
+      "username": "John Wick",
+      "avatar": "user.png",
+      "time": "Sep 18, 2020 12:12",
+      "content": "Felt cute, might delete later",
+      "image": "img2.jpeg"
+    },
+    {
+      "username": "John Wick",
+      "avatar": "user.png",
+      "time": "Sep 18, 2020 12:12",
+      "content": "Felt cute, might delete later",
+      "image": "img2.jpeg"
+    },
+    {
+      "username": "Task 2",
+      "avatar": "user.png",
+      "time": "Sep 18, 2020 12:12",
+      "content": "This JSON file was validated by https://jsonlint.com/",
+      "image": null
+    },
+    {
+      "username": "Task 3",
+      "avatar": "user.png",
+      "time": "Sep 18, 2020 12:12",
+      "content": "Storing this JSON file in ... *drumroll please* ... GITHUB!",
+      "image": null
+    }
+  ]
+}
