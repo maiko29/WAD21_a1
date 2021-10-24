@@ -60,6 +60,17 @@ body {
     padding: 12px 16px;
 }
 
+.flex-items-avatar {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.flex-items-avatar > p{
+    padding-left: 8px;
+}
+
 .flex-items-content {
     display: flex;
     flex-flow: column wrap;
@@ -186,7 +197,7 @@ input + button:hover {
 
 
 /* General Sibling Selector */
-img ~ p {
+.flex-items-avatar ~ p {
     color: #adb1b7;
     font-size: 12px;
 }
