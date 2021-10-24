@@ -215,7 +215,7 @@ img ~ p {
     margin-top: 20px;
     background-color: #f1f1f1;
     min-width: 300px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
 
@@ -243,7 +243,9 @@ img ~ p {
     font-size: 16px;
     border: none;
     cursor: pointer;
-  }
+}
 
-  /* Yl7 */
-.show {display:block;}
+/* Yl7 */
+.show {
+    display: block;
+}
