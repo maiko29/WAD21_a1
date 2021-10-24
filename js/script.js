@@ -19,9 +19,9 @@ window.onclick = function (event) {
 }
 
 
-// Dynamic posts with Json and jQuery
+// TASK 4
 $(function() {
-    $.get("https://maiko29.github.io/WAD21_a1/json/data.json", function(posts) {
+    $.get("https://maiko29.github.io/WAD21_a1/json/data_hosted.json", function(posts) {
         for (post of posts) {
             let divMain = $('<div class="flex-items">');
 
