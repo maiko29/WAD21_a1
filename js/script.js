@@ -59,7 +59,7 @@ $(function() {
 
 // Task 5
 $(function() {
-    $.get("/json/data.json", function (records){
+    $.get("./json/data.json", function (records){
     for (record of records){
 
         // main div which will hold "subdivs" of rows
